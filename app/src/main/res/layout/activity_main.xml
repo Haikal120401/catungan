@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_catungan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="CATUNGAN"
+        android:textAlignment="center"
+        android:textColor="@color/color4"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/id_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_catungan"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_rounded"
+        android:padding="15dp"
+        android:text="Total Uang"
+        android:textColor="@color/color2"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/text_uangTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/id_total"
+        android:text="Rp 1.000.000"
+        android:textAlignment="center"
+        android:textColor="@color/color4"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="75dp"
+        android:shadowColor="@color/color7"
+        android:background="@drawable/button_rounded1"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="468dp"/>
+
+    <TextView
+        android:id="@+id/text_pengeluaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengeluaran"
+        android:textColor="@color/color3"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <Button
+        android:id="@+id/button_waste"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/piggy_waste"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <Button
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/piggy_save"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/text_pemasukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pemasukan"
+        android:textColor="@color/color3"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <Button
+        android:id="@+id/button_riwayatKeuangan"
+        android:layout_width="413dp"
+        android:layout_height="32dp"
+        android:background="@color/color1"
+        android:text="Riwayat Keuangan"
+        android:textColor="@color/color3"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <Button
+        android:id="@+id/button_batasPengeluaran"
+        android:layout_width="413dp"
+        android:layout_height="32dp"
+        android:background="@color/color4"
+        android:text="Batas Pengeluaran"
+        android:textAlignment="center"
+        android:textColor="@color/color3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

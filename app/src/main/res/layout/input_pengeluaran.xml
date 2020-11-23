@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color6"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/title_pengeluaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengeluaran"
+        android:textColor="@color/color4"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/text_jenisTabungan_pengeluaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih jenis tabungan"
+        android:textColor="@color/color4"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/button_pengeluaranCash"
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:background="@drawable/button_rounded1"
+        android:text="Cash"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <Button
+        android:id="@+id/button_pengeluaranBank"
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:background="@drawable/button_rounded1"
+        android:text="Bank"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="275dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
